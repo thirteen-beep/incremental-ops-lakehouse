@@ -170,3 +170,18 @@ tests/.docker/
 # npm packages pulled in by lint-emscripten
 node_modules/
 .kata.local.toml
+
+# Local portfolio application data and private materials
+.data/
+.local-results/
+*.db
+*.sqlite
+*.duckdb
+*.duckdb.wal
+.env
+.env.*
+*.docx
+*.pdf
+__pycache__/
+portfolio_evals/results/scripted.json
+portfolio_evals/results/live.json
